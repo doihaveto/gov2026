@@ -1061,7 +1061,7 @@
     }).join('') + '</div>';
     html += '</div>';
 
-    html += '<aside class="col-side" id="side"><section class="card sticky side-panel">' +
+    html += '<aside class="col-side" id="side"><section class="card side-panel">' +
       '<div class="panel-score">' + scoreRing(coal.mem.length ? coal.score : 0, 84) +
       T('<div><h3>מציאותיות הקואליציה</h3><p class="muted small">ציון 100 = קואליציה ללא קווים אדומים או מתיחויות.</p></div></div>') +
       (state.pm ? T('<div class="pm-line">ראש הממשלה המיועד: ') + dot(state.pm) + '<b>' + esc(pmPerson()) + '</b> (' + esc(PBY[state.pm].short) + ')</div>' : T('<div class="pm-line muted">בחרו מפלגות לקואליציה</div>')) +
